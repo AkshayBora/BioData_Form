@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Table_Format</title>
+</head>
+<body>
+    <div class="containee">
+      <h1>Student Biodata Form</h1>
+    </div>
+    <div class="btn-flex">
+      <button class="btn third">Download</button>
+    </div>
+
+    <input type="text" id="search" class="form-control"  placeholder="Search for name and email......">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Enrollment No.</th>
+                <th>Date and time</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="table">
+          <tr>
+            <td data-column="First Name" id="title">Akshay_Bora</td>
+            <td data-column="Enrollment No.">00114807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Login</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Dharam_Singh</td>
+            <td data-column="Enrollment No.">00514807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Login</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Nishi_Kumari</td>
+            <td data-column="Enrollment No.">01014807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Login</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Gopal_Jha</td>
+            <td data-column="Enrollment No.">00714807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Login</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Sweety_Singh</td>
+            <td data-column="Enrollment No.">00314807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Login</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Nishi_Kumari</td>
+            <td data-column="Enrollment No.">01014807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Logout</td>
+          </tr>
+          <tr>
+            <td data-column="First Name" id="title">Akshay_Bora</td>
+            <td data-column="Enrollment No.">00114807320</td>
+            <td data-column="Date and time" class="dateAndtime"></td>
+            <td data-column="Status">Logout</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
