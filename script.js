@@ -22,5 +22,5 @@ var dateTime = date+'  --  '+time;
 var elem = document.querySelectorAll('.dateAndtime');
 // console.log(elem);
 for(const data of elem){
-    data.innerHTML = dateTime;
+    data.innerHTML = dateTime + " " + AmOrPm;
 }
