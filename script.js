@@ -7,10 +7,6 @@ $(document).ready(function () {
   });
 });
 
-
-// let date = new Date().toLocaleDateString();
-// document.getElementById('dateAndtime').innerHTML = date;
-
 var today = new Date();
 var day = today.getDay();
 var date = today.getDate() +'-'+(today.getMonth()+1)+'-'+ today.getFullYear();
